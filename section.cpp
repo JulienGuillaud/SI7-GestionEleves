@@ -37,8 +37,25 @@ void Section::gererSection()
   while(choixMenuSection!=9);
 }
 
-
-void Section::ajoutSection()
+void Section::affSection()
 {
+  for (i = 0; i < nbSection; i++)
+  {
+    cout << "No de la section : " << nbSection << endl;
+    cout << "Nom de la Section : " << nomSection << endl;
+    cout << " ------ " << endl;
+  }
+}
 
+void Section::ajoutSection()    // Pas sur dutout
+{
+  cout << "Entrez le nom de la nouvelle section :";
+  getline(cin,nomSection);
+  nbSection++;
+}
+
+
+void Section::supprSection()
+{
+  cout
 }
