@@ -13,6 +13,8 @@ class Application
 
   public:
     void run();
+    void afficherToutesSections();
+    void gererSection();
 
 
 };

@@ -1,7 +1,8 @@
 #include <iostream>
+#include "eleve.h"
+#include "application.h"
+
 using namespace std;
-#include "eleve.h";
-#include "application.h";
 
 int main()
 {
