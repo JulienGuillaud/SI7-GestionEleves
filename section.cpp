@@ -1,12 +1,20 @@
 #include "section.h"
 
+
+Section::Section(string sectNom)
+{
+  nomSection=sectNom;
+}
+
+
+
 void Section::gererSection()
 {
   do
   {
 
     cout << "+====================+" << endl;
-    cout << "| Gerer les sections |" << endl;
+    cout << "| Gerer les Eleves   |" << endl;
     cout << "+--------------------+" << endl;
     cout << "| 1 : Ajout          |" << endl;
     cout << "| 2 : Suppression    |" << endl;
@@ -34,7 +42,7 @@ void Section::gererSection()
       default: break;
     }
   }
-  while(choixMenuSection!=9);
+  while(choixMenuSection!=9);  }
 }
 
 void Section::affSection()
@@ -45,18 +53,4 @@ void Section::affSection()
     cout << "Nom de la Section : " << nomSection << endl;
     cout << " ------ " << endl;
   }
-}
-
-void Section::ajoutSection()    // Pas sur dutout
-{
-  cout << "Entrez le nom de la nouvelle section :";
-  getline(cin,nomSection);
-  nbSection++;
-}
-
-
-void Section::supprSection()
-{
-  cout << "Quelle section voulez vous supprimer ?" << endl;
-  
 }

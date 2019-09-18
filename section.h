@@ -7,17 +7,16 @@
 class Section:
 {
   private:
-    vector<eleve> eleve;
-    int nbSection;
     string nomSection;
+    vector<eleve> eleve;
+
 
 
 
 
   public:
-    void gererSection();
-    void ajoutSection();
-    void supprSection();
+    Section(string sectNom);
+
     void modifSection();
     void affSection();
 
