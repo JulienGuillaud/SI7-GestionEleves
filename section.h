@@ -2,11 +2,12 @@
 #define SECTION
 
 #include "eleve.h"
+#include <vector>
 
 class Section:
 {
   private:
-    eleve tabEleve[];
+    vector<eleve> eleve;
     int nbSection;
     string nomSection;
 

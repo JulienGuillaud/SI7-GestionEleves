@@ -57,5 +57,6 @@ void Section::ajoutSection()    // Pas sur dutout
 
 void Section::supprSection()
 {
-  cout
+  cout << "Quelle section voulez vous supprimer ?" << endl;
+  
 }

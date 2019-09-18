@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "eleve.h";
+#include "section.h";
 
 int main()
 {
@@ -17,6 +18,7 @@ int main()
     int choixMenu;
     cin>>choixMenu;
 
+    section maSection;
     switch (choixMenu)
     {
       case 1:

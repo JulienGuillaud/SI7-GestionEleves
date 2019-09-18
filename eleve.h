@@ -12,8 +12,8 @@ class Eleve
 
   public:
     Eleve(string nom,string prenom);
-    void returnNom;
-    void returnPrenom;
+    void returnNom();
+    void returnPrenom();
 
 };
 #endif
